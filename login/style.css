@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;500;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #F1F2F6;
+}
+
+.container {
+    width: 20rem;
+    height: 30rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .title {
+    font-size: 3rem;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+}
+
+.container > input {
+    height: 3rem;
+    width: 16rem;
+    border: none;
+    background-color: #fff;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container > button {
+    height: 3rem;
+    width: 12rem;
+    border: 2px solid #fff;
+    background-color: #000;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
