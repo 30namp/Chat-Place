@@ -38,4 +38,16 @@
         'from' => 'admin',
         'to' => 'sinamp',
         'text' => 'sdfdsf',
+    ],[
+        'from' => 'sinamp',
+        'to' => 'admin',
+        'text' => 'hi fuck',
+    ],[
+        'from' => 'admin',
+        'to' => 'sinamp',
+        'text' => 'hi fuck to :)',
+    ],[
+        'from' => 'admin',
+        'to' => 'sinamp',
+        'text' => 'too*',
     ],]; ?>
